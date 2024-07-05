@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/styles.css -o dist/styles.css"
+    "build": "postcss src/index.css -o dist/styles.css"
   },
   "keywords": [
     "css",
@@ -16,6 +16,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0"
   }
 }
