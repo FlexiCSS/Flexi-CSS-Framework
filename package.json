@@ -1,0 +1,21 @@
+{
+  "name": "flexi-css-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles.css -o dist/styles.css"
+  },
+  "keywords": [
+    "css",
+    "flexi-css",
+    "css-library"
+  ],
+  "author": "Naveen Kumar",
+  "license": "Apache 2.0",
+  "description": "A css library for the web",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0"
+  }
+}
