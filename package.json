@@ -11,11 +11,13 @@
     "css-library"
   ],
   "author": "Naveen Kumar",
-  "license": "Apache 2.0",
+  "license": "MIT",
   "description": "A css library for the web",
   "dependencies": {
+    "postcss": "^8.4.39"
+  },
+  "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0"
   }
