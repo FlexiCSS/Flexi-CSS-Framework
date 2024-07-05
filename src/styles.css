@@ -26,3 +26,10 @@ body {
 .text-left{text-align: left;}
 .text-right{text-align: right;}
 .text-center{text-align: center;}
+
+/* Font weights */
+.font-thin{font-weight: 100;}
+.font-light{font-weight: 300;}
+.font-normal{font-weight: 400;}
+.font-medium{font-weight: 500;}
+.font-bold{font-weight: 700;}
